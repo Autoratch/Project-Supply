@@ -1,0 +1,62 @@
+This data is
+
+*  (c) Copyright 1996  The General Hospital Corporation             *
+*                      All Rights Reserved                          *
+
+PLEASE REFER ALL REQUESTS FOR COPIES OF THIS DATA DIRECTLY TO THE IBSR:
+
+               http://www.cma.mgh.harvard.edu/ibsr/
+
+BY USING THIS DATA, YOU AGREE TO 1) ACKNOWLEDGE that the data came from
+the ibsr, and 2) PARTICIPATE in the ibsr by providing your resulting
+segmentations for comparison and by providing (at least) a reference to
+a description of your methods.
+
+When publishing results this data, acknowledge the source by including
+the statement, "MR brain data set 657 was provided by the Center for
+Morphometric Analysis at Massachusetts General Hospital and is
+available at http://www.cma.mgh.harvard.edu/ibsr/."
+
+The purpose of this policy is to increase collaboration.  None of this
+data can be used for anything but research in automating segmentation.
+Specifically, you may not use and may not allow this data to be used
+for anatomical or morphological studies without explicit permission
+from the copyright holder.  You must also obtain permission before
+publishing any image or segmentation data or before using any of this
+data in any commercial product.
+
+=---------------------------------------------------------------------=
+
+The file 657.tar.Z is a compressed tar file that contains seven different
+image types of the same 18 brain slices from a normal subject:
+								      Flip
+ File name    Type of Scan			   	 TR	 TE   Angle
+------------  ----------------------------------------  ----  ------  -----
+657_2_*.img   Conventional T1  Spin echo sequence 	 700   20.00	90
+657_8_*.img   Conventional PD  Spin echo sequence 	2200   30.00 	90
+657_9_*.img   Conventional T2  Spin echo sequence 	2200   80.00 	90
+657_4_*.img   Fast T1, low signal/noise, SPGR (1 avg) 	  25    5.00 	40
+657_6_*.img   Fast T1, better signal/noise, SPGR (2 avgs) 25    5.00 	40
+657_10_*.img  Fast PD FSE sequence 			2500   13.04 	90
+657_11_*.img  Fast T2 FSE sequence 			4200  104.32 	90
+
+Where * is 1-18, TI = 0.00, Orient = CORONAL
+Pixel Dimensions: Inplane = 0.859375, Slice Thickness = 6.000000 
+		  Slice Spacing = 1.000000
+
+The ".img" format is a file of 256x256 16 bit integers with no header.
+All scans were acquired at the NMR Center of the Massachusetts General
+Hospital with a 1.5 Tesla General Electric Signa.
+
+If you have any problems with or questions about this data, please
+contact me.  Also, please let me know if you wish to contribute data
+to the Internet Segmentation Brain Repository.  Thanks!
+
+=---------------------------------------------------------------------=
+Andrew J. Worth, Ph.D.                         andy@cma.mgh.harvard.edu
+Center for Morphometric Analysis               +1 (617) 726-5711
+Massachusetts General Hospital                 +1 (617) 726-5677 (FAX)
+CNY-6, Building 149, 13th Street
+Charlestown MA  02129-2000   USA
+=---------------------------------------------------------------------=
+                http://www.cma.mgh.harvard.edu/ibsr/
